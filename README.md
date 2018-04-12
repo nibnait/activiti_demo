@@ -1,4 +1,4 @@
-# idea activiti工作流 demo使用
+# activiti工作流 demo使用
 
 _原理剖析 [http:tianbin.org/]()_
 
