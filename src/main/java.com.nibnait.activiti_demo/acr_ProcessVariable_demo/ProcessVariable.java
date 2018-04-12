@@ -128,8 +128,8 @@ public class ProcessVariable {
 
     //设置流程变量值
     @Test
-    public void setVariable(){
-        String taskId="1804";//任务id
+    public void setVariable() {
+        String taskId="1305";//任务id
         //采用TaskService来设置流程变量
 
         //1. 第一次设置流程变量
@@ -152,22 +152,20 @@ public class ProcessVariable {
          */
         TaskService taskService = processEngine.getTaskService();
         //传递的一个自定义bean对象
-        PayBillBean payBillBean =new PayBillBean();
+        PayBillBean payBillBean = new PayBillBean();
         payBillBean.setId(1);
         payBillBean.setCost(300);
         payBillBean.setDate(new Date());
         payBillBean.setPayPerson("何某某");
         taskService.setVariable(taskId, "payBillBean", payBillBean);
 
-
         System.out.println("设置成功！");
-
     }
 
     //查询流程变量
     @Test
     public void getVariable(){
-        String taskId="1804";//任务id
+        String taskId="1305";//任务id
 //		TaskService taskService = processEngine.getTaskService();
 //		Integer cost=(Integer) taskService.getVariable(taskId, "cost");//取变量
 //		Date date=(Date) taskService.getVariable(taskId, "申请时间");//取本任务中的变量

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e234f2ac-2c79-4152-8b8f-66f8a63b028f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java.com.nibnait.activiti_demo/acr_ProcessVariable_demo/ProcessVariable.java" afterPath="$PROJECT_DIR$/src/main/java.com.nibnait.activiti_demo/acr_ProcessVariable_demo/ProcessVariable.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,8 +20,8 @@
       <file leaf-file-name="ProcessVariable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java.com.nibnait.activiti_demo/acr_ProcessVariable_demo/ProcessVariable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1244">
-              <caret line="27" column="59" lean-forward="false" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+            <state relative-caret-position="237">
+              <caret line="167" column="27" lean-forward="false" selection-start-line="167" selection-start-column="27" selection-end-line="167" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2486#2502#0" expanded="true" />
@@ -33,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="338">
-                <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <first_editor relative-caret-position="461">
+                <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -218,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProcessVariable.startProcess">
+  <component name="RunManager" selected="JUnit.ProcessVariable.getVariable">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -252,6 +254,81 @@
       <option name="PACKAGE_NAME" value="acr_ProcessVariable_demo" />
       <option name="MAIN_CLASS_NAME" value="acr_ProcessVariable_demo.ProcessVariable" />
       <option name="METHOD_NAME" value="deployProcessDefi" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ProcessVariable.getVariable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="acr_ProcessVariable_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="activiti_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="acr_ProcessVariable_demo" />
+      <option name="MAIN_CLASS_NAME" value="acr_ProcessVariable_demo.ProcessVariable" />
+      <option name="METHOD_NAME" value="getVariable" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ProcessVariable.queryTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="acr_ProcessVariable_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="activiti_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="acr_ProcessVariable_demo" />
+      <option name="MAIN_CLASS_NAME" value="acr_ProcessVariable_demo.ProcessVariable" />
+      <option name="METHOD_NAME" value="queryTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ProcessVariable.setVariable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="acr_ProcessVariable_demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="activiti_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="acr_ProcessVariable_demo" />
+      <option name="MAIN_CLASS_NAME" value="acr_ProcessVariable_demo.ProcessVariable" />
+      <option name="METHOD_NAME" value="setVariable" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -311,81 +388,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="b_ProcessDefinitionManager.viewImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="act_base_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="activiti_demo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="act_base_demo" />
-      <option name="MAIN_CLASS_NAME" value="act_base_demo.b_ProcessDefinitionManager" />
-      <option name="METHOD_NAME" value="viewImage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="c_ProcessInstanceAndTask.queryHistoryProcInst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="act_base_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="activiti_demo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="act_base_demo" />
-      <option name="MAIN_CLASS_NAME" value="act_base_demo.c_ProcessInstanceAndTask" />
-      <option name="METHOD_NAME" value="queryHistoryProcInst" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="c_ProcessInstanceAndTask.queryHistoryTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="act_base_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="activiti_demo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="act_base_demo" />
-      <option name="MAIN_CLASS_NAME" value="act_base_demo.c_ProcessInstanceAndTask" />
-      <option name="METHOD_NAME" value="queryHistoryTask" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -427,19 +429,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.c_ProcessInstanceAndTask.queryHistoryProcInst" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.c_ProcessInstanceAndTask.queryHistoryTask" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.b_ProcessDefinitionManager.viewImage" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ProcessVariable.deployProcessDefi" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ProcessVariable.startProcess" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ProcessVariable.deployProcessDefi" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ProcessVariable.startProcess" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ProcessVariable.queryTask" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ProcessVariable.setVariable" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ProcessVariable.getVariable" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ProcessVariable.startProcess" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ProcessVariable.deployProcessDefi" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.b_ProcessDefinitionManager.viewImage" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.c_ProcessInstanceAndTask.queryHistoryTask" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.c_ProcessInstanceAndTask.queryHistoryProcInst" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ProcessVariable.getVariable" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ProcessVariable.setVariable" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ProcessVariable.queryTask" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ProcessVariable.startProcess" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ProcessVariable.deployProcessDefi" />
       </list>
     </recent_temporary>
   </component>
@@ -457,25 +459,31 @@
       <option name="presentableId" value="Default" />
       <updated>1523510682361</updated>
       <workItem from="1523510684061" duration="5548000" />
-      <workItem from="1523518139809" duration="14312000" />
+      <workItem from="1523518139809" duration="17031000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProcessVariable_deployProcessDefi - 2018.04.12 at 19h 10m 25s.xml">
-      <configuration name="ProcessVariable.deployProcessDefi" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProcessVariable_deployProcessDefi - 2018.04.12 at 19h 18m 42s.xml">
       <configuration name="ProcessVariable.deployProcessDefi" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ProcessVariable_deployProcessDefi - 2018.04.12 at 19h 31m 34s.xml">
       <configuration name="ProcessVariable.deployProcessDefi" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProcessVariable_startProcess - 2018.04.12 at 19h 10m 34s.xml">
-      <configuration name="ProcessVariable.startProcess" configurationId="JUnit" />
+    <history-entry file="ProcessVariable_getVariable - 2018.04.12 at 21h 50m 34s.xml">
+      <configuration name="ProcessVariable.getVariable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProcessVariable_startProcess - 2018.04.12 at 19h 11m 13s.xml">
-      <configuration name="ProcessVariable.startProcess" configurationId="JUnit" />
+    <history-entry file="ProcessVariable_getVariable - 2018.04.12 at 21h 50m 45s.xml">
+      <configuration name="ProcessVariable.getVariable" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProcessVariable_queryTask - 2018.04.12 at 21h 49m 24s.xml">
+      <configuration name="ProcessVariable.queryTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProcessVariable_setVariable - 2018.04.12 at 21h 49m 38s.xml">
+      <configuration name="ProcessVariable.setVariable" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProcessVariable_setVariable - 2018.04.12 at 21h 50m 19s.xml">
+      <configuration name="ProcessVariable.setVariable" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ProcessVariable_startProcess - 2018.04.12 at 19h 18m 26s.xml">
       <configuration name="ProcessVariable.startProcess" configurationId="JUnit" />
@@ -486,18 +494,13 @@
     <history-entry file="ProcessVariable_startProcess - 2018.04.12 at 20h 31m 28s.xml">
       <configuration name="ProcessVariable.startProcess" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="b_ProcessDefinitionManager_viewImage - 2018.04.12 at 18h 50m 24s.xml">
-      <configuration name="b_ProcessDefinitionManager.viewImage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="b_ProcessDefinitionManager_viewImage - 2018.04.12 at 18h 50m 45s.xml">
-      <configuration name="b_ProcessDefinitionManager.viewImage" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19860000" />
+    <option name="totallyTimeSpent" value="22579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -516,10 +519,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30688936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30688936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24112734" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2172524" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -702,8 +705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java.com.nibnait.activiti_demo/acr_ProcessVariable_demo/ProcessVariable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1244">
-          <caret line="27" column="59" lean-forward="false" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        <state relative-caret-position="237">
+          <caret line="167" column="27" lean-forward="false" selection-start-line="167" selection-start-column="27" selection-end-line="167" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2486#2502#0" expanded="true" />
@@ -715,8 +718,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="338">
-            <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <first_editor relative-caret-position="461">
+            <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

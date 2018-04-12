@@ -1,4 +1,4 @@
-#idea activiti工作流 demo使用
+# idea activiti工作流 demo使用
 
 _原理剖析 [http:tianbin.org/]()_
 
@@ -8,7 +8,7 @@ bpmn插件：actiBPM
     使Working directory = %MODULE_WORKING_DIR%  
     MODULE_WORKING_DIR = /Users/nibnait/Downloads/github/activiti_demo/src/main/webapp
 
-##1. 流程的部署&&执行，任务的执行&&查询
+## 1. 流程的部署&&执行，任务的执行&&查询
 以请假流程（leaveBill）为例：
 
 1. a_TestActiviti.deploy()  
@@ -54,8 +54,8 @@ processEngine.getRepositoryService().deleteDeployment(deploymentId);
 
 ![一个请假流程实例](/doc/leaveBillVariable.png)
 
-
-
+1. 流程变量的作用域就是流程实例，所以只要设置就行了，不用管在哪个阶段设置
+2. 基本类型设置流程变量，在taskService中使用任务ID，定义流程变量的名称，设置流程变量的值。
 
 ------------
 ======================================================================
